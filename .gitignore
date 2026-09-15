@@ -1,0 +1,16 @@
+# Entorno virtual
+.venv/
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# Archivos comprimidos que no forman parte del proyecto
+*.zip
