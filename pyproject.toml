@@ -1,0 +1,21 @@
+[project]
+name = "conecta4-src-y-tests"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hectorphone", email = "hectorphone@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifultable>=1.1.0",
+    "pyfiglet>=1.0.4",
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+conecta4-src-y-tests = "conecta4_src_y_tests:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
